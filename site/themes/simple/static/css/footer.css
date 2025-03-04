@@ -1,0 +1,7 @@
+#social-icons a {
+  padding: 0px 10px;
+}
+
+footer {
+  flex-shrink: 0; /* Prevent footer from shrinking */
+}

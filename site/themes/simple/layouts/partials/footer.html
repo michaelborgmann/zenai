@@ -1,0 +1,73 @@
+<footer class="text-center">
+
+  <div class="pt-5 text-center" id="social-icons">
+
+    {{ range .Site.Data.socialmedia.accounts }}
+
+      {{ if eq .name "Apple" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_apple.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Apple"></a>
+      {{ end }}
+
+      {{ if eq .name "Twitter" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_twitter.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Twitter"></a>
+      {{ end }}
+
+      {{ if eq .name "LinkedIn" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_linkedin.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="LinkedIn"></a>
+      {{ end }}
+
+      {{ if eq .name "GitHub" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_github.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="GitHub"></a>
+      {{ end }}
+
+      {{ if eq .name "Xing" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_xing.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Xing"></a>
+      {{ end }}
+
+      {{ if eq .name "Facebook" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_facebook.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Facebook"></a>
+      {{ end }}
+
+      {{ if eq .name "Instagram" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_instagram.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Instagram"></a>
+      {{ end }}
+
+      {{ if eq .name "YouTube" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_youtube.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="YouTube"></a>
+      {{ end }}
+
+      {{ if eq .name "SoundCloud" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_soundcloud.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="SoundCloud"></a>
+      {{ end }}
+
+      {{ if eq .name "Vimeo" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_vimeo.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Vimeo"></a>
+      {{ end }}
+
+      {{ if eq .name "Pinterest" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_pinterest.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Pinterest"></a>
+      {{ end }}
+
+      {{ if eq .name "Meetup" }}
+        <a href="{{ .url }}"><img src={{ "social_icons/icon_meetup.png" | relURL }} width="20" height="20" class="d-inline-block align-top" alt="Meetup"></a>
+      {{ end }}
+
+		{{ end }}
+
+  </div>
+
+  <hr/>
+
+  <div class="m-3">
+    <span class="fs-6 fw-lighter p-3"><a class="link-secondary" href="/imprint">Imprint</a></span>
+    <span class="fs-6 fw-lighter p-3"><a class="link-secondary"href="/privacy-policy">Privacy Policy</a></span>
+    <span class="fs-6 fw-lighter p-3"><a class="link-secondary"href="/licencing">Licencing</a></span>
+  </div>
+
+  <div class="m-2">
+    <p class="fs-6 fw-lighter">
+      Copyright © by <a href="https://www.michaelborgmann.com" target="_blank" rel="noopener noreferrer">Michael Borgmann</a>, {{ now.Format "2006" }}. All Rights Reserved.
+    </p>
+  </div>
+
+</footer>

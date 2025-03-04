@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+
+        {{- partial "nav.html" . -}}
+
+        <div id="content" data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="0" tabindex="0">
+          {{- block "main" . }}{{- end }}
+        </div>
+
+        {{- partial "footer.html" . -}}
+        {{- partial "footer_scripts.html" . -}}
+    </body>
+</html>

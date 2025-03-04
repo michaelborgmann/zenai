@@ -1,0 +1,30 @@
+<nav id="navbar-scrollspy" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ "images/logo.png" | relURL }}" alt="ZenAI Logo" width="48" height="48" class="rounded">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          {{ if $.IsHome }}
+            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          {{ else }}
+            <a class="nav-link" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </li>
+        {{ end }}
+
+      </ul>
+    </div>
+
+  </div>
+</nav>

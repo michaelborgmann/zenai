@@ -1,0 +1,14 @@
+baseURL = 'http://zenai.github.io'
+languageCode = 'en-us'
+title = 'ZenAI'
+theme = 'simple'
+
+[menus]
+  [[menus.main]]
+    name = 'ZenAI'
+    url = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'About'
+    url = 'about'
+    weight = 20
