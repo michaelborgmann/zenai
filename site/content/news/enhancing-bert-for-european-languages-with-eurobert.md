@@ -1,5 +1,5 @@
 +++
-date = '2025-03-28T12:01:26+01:00'
+date = '2025-03-27T12:01:26+01:00'
 draft = false
 title = 'Enhancing BERT for European Languages with EuroBERT'
 +++

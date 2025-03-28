@@ -1,5 +1,5 @@
 +++
-date = '2025-03-28T11:43:44+01:00'
+date = '2025-03-27T11:43:44+01:00'
 draft = false
 title = 'Openais Gpt 4o Image Generator Creates Ghibli Style Art'
 +++

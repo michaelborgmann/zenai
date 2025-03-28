@@ -1,5 +1,5 @@
 +++
-date = '2025-03-28T11:49:09+01:00'
+date = '2025-03-27T11:49:09+01:00'
 draft = false
 title = 'OpenAI Adopts Competitor Anthropics Open Model Standard'
 +++

@@ -1,6 +1,6 @@
 +++
-date = '2025-03-28T12:25:41+01:00'
-draft = true
+date = '2025-03-27T12:25:41+01:00'
+draft = false
 title = 'Alibaba Qwen2.5-VL-32B: New Advanced Image Analysis'
 +++
 
