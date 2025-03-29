@@ -8,6 +8,9 @@ This repository contains my personal study notes and summaries of [Deep Learning
 
 ## Chapter Summaries
 
+- [Chater 1: What is deep learning?](chapter-01-what-is-deep-learning.md)
+- [Chapter 2: The Mathematical Building Blocks of Neural Networks](chapter-02-the-mathematical-building-blocks-of-neural-networks.md)
+
 ## Additional Resources
 
 * **Official book**: [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition)
