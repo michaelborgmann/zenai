@@ -1,0 +1,49 @@
+- title: "OpenAI"
+  description: "A leader in AI research and deployment, known for ChatGPT and DALL·E."
+  link: "https://openai.com"
+  links:
+    - name: "ChatGPT"
+      url: "https://chatgpt.com"
+      description: "OpenAI's GPT-4 is a state-of-the-art language model that powers many modern AI applications."
+    - name: "OpenAI FM"
+      url: "https://www.openai.fm"
+
+- title: "Grok"
+  description: "Description about Grok"
+  link: "https://grok.com"
+
+- title: "Anthropic"
+  description: "Description about Anthropic"
+  link: "https://www.anthropic.com"
+  links:
+    - name: "Claude"
+      url: "https://claude.ai"
+
+- title: "DeepSeek"
+  description: "Description about DeepSeek"
+  link: "http://deepseek.com"
+  links:
+    - name: "DeepSeek"
+      url: "https://chat.deepseek.com"
+  
+
+- title: "Hugging Face"
+  description: "An AI community and platform for model hosting and training."
+  link: "https://huggingface.co"
+
+- title: "TensorFlow"
+  description: "TensorFlow is an open-source machine learning framework developed by Google."
+  link: "https://www.tensorflow.org/"
+
+- title: "PyTorch"
+  description: "PyTorch is a popular deep learning framework known for its flexibility and dynamic computation graph."
+  link: "https://pytorch.org/"
+
+- title: "IBM Watson"
+  description: "IBM Watson offers a suite of AI tools for businesses, including natural language processing and data analytics."
+  link: "https://www.ibm.com/watson"
+
+- title: "Google AI"
+  description: "Google AI focuses on creating innovative AI solutions, from healthcare to search technology."
+  link: "https://ai.google/"
+  

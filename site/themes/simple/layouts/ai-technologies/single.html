@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container ai-container">
+  <header class="section-header">
+    <h1 class="section-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="section-description">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="ai-list">
+    {{ range .Site.Data.aitechnologies }}
+      <article class="ai-item">
+        <div class="ai-card">
+          <div class="ai-info">
+            <h3 class="ai-title"><a href="{{ .link }}" target="_blank">{{ .title }}</a></h3>
+            <p class="ai-summary">{{ .description }}</p>
+          </div>
+
+          <!-- Flexible Relevant Links Section -->
+          {{ with .links }}
+          <div class="ai-links">
+            {{ range . }}
+              <a href="{{ .url }}" class="ai-link" target="_blank">{{ .name }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

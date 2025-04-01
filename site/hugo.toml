@@ -12,3 +12,7 @@ theme = 'simple'
     name = 'About'
     url = 'about'
     weight = 20
+  [[menus.main]]
+    name = 'AI'
+    url = 'ai-technologies'
+    weight = 150
