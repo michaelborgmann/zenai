@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="container news-single-container">
+  <article class="news-article">
+    <header class="news-header">
+      <div class="news-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+      <h1 class="news-title">{{ .Title }}</h1>
+    </header>
+    
+    <div class="news-content">
+      {{ .Content }}
+    </div>
+    
+    {{ with .Params.source }}
+    <div class="news-source">
+      <strong>Source:</strong> <a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
+    </div>
+    {{ end }}
+    
+    {{ if .Params.tags }}
+    <div class="news-tags">
+      <span class="tags-label">Related topics:</span>
+      <ul class="tags-list">
+        {{ range .Params.tags }}
+        <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    
+    <div class="news-navigation">
+      <div class="news-nav-prev">
+        {{ with .PrevInSection }}
+        <span class="nav-label">Previous</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="news-nav-next">
+        {{ with .NextInSection }}
+        <span class="nav-label">Next</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}
