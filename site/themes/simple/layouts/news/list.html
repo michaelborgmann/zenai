@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container news-container">
+  <header class="section-header">
+    <h1 class="section-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="section-description">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="news-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="news-item">
+      <div class="news-date">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </div>
+      <div class="news-content">
+        <h2 class="news-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <div class="news-summary">
+          {{ if .Params.summary }}
+            {{ .Params.summary }}
+          {{ else }}
+            {{ .Summary | truncate 200 }}
+          {{ end }}
+        </div>
+        <a href="{{ .RelPermalink }}" class="read-more">Read more →</a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}
