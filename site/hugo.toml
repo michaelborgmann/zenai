@@ -1,4 +1,4 @@
-baseURL = 'http://zenai.github.io'
+baseURL = 'http://michaelborgmann.github.io'
 languageCode = 'en-us'
 title = 'ZenAI'
 theme = 'simple'
@@ -17,6 +17,14 @@ theme = 'simple'
     url = 'about'
     weight = 20
   [[menus.main]]
+    name = 'Blog'
+    url = 'blog'
+    weight = 30
+  [[menus.main]]
+    name = 'News'
+    url = 'news'
+    weight = 40
+  [[menus.main]]
     name = 'AI'
     url = 'ai-technologies'
-    weight = 150
+    weight = 50
