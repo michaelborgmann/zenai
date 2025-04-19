@@ -1,5 +1,5 @@
 +++
-date = '2025-04-18T20:34:09+02:00'
+date = '2025-04-17T20:34:09+02:00'
 draft = false
 title = 'OpenAI Updates Safety Framework for High-Risk AI Capabilities'
 +++
