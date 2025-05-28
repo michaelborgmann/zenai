@@ -4,70 +4,54 @@ draft = false
 title = 'Expert AI Guides Released'
 +++
 
-Google, OpenAI and Anthropic just released expert AI guides for free.
+## 10 Pro-Level AI Resources You Can Access for Free
 
-While some are still spending over £1,000 on AI courses, the top players are giving away high-level resources at no cost.
+1. [Prompt Engineering for LLMs](https://zncd.ir/wp-content/uploads/2025/01/John-Berryman-Albert-Ziegler-Prompt-Engineering-for-LLMs_-The-Art-and-Science-of-Building-Large-Language-Model-Based-Applications-2024-OReilly-Media-libgen.li_.pdf)
+✔️ Prompt formats
+✔️ Real-world applications
+✔️ System integration
 
-From prompt engineering to agent frameworks, it’s all here.
+2. [Google’s Prompting Guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)
+✔️ Gemini optimization
+✔️ Role-specific strategies
+✔️ Workspace integration
 
-🧠 Top 10 Free AI Guides with links:
+3. [OpenAI's Agents Guide](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
+✔️ Agent blueprints
+✔️ Workflow examples
+✔️ Practical tips
 
-Prompt Engineering for LLMs
-→ Prompt structures
-→ Real use cases
-→ LLM integration
-🔗 [https://shorturl.at/JmCWH](https://shorturl.at/JmCWH)
+4. [AI for the Enterprise](https://cdn.openai.com/business-guides-and-resources/ai-in-the-enterprise.pdf) (OpenAI)
+✔️ Implementation roadmap
+✔️ Business alignment
+✔️ Case study design
 
-Google’s Prompting Guide
-→ Gemini tips
-→ Role-based prompts
-→ Workspace strategies
-🔗 [https://shorturl.at/Im7xK](https://shorturl.at/Im7xK)
+5. Google’s [Agent Companion](https://www.kaggle.com/whitepaper-agent-companion) Whitepaper
+✔️ Evaluation strategies
+✔️ Agent decision logic
+✔️ Industry scenarios
 
-OpenAI Guide to Agents
-→ Agent architecture
-→ Use cases
-→ Best practices
-🔗 [https://shorturl.at/EwdZG](https://shorturl.at/EwdZG)
+6. Anthropic’s [Agent Framework](https://www.anthropic.com/engineering/building-effective-agents)
+✔️ Claude-based agent flows
+✔️ Modular prompting
+✔️ Iteration design
 
-OpenAI: AI in the Enterprise
-→ Adoption steps
-→ Strategic roadmap
-→ Use case design
-🔗 [https://shorturl.at/GWeH2](https://shorturl.at/GWeH2)
+7. Secure [Coding with Claude](https://www.anthropic.com/engineering/claude-code-best-practices)
+✔️ Injection prevention
+✔️ Structure & style
+✔️ Cleaner outputs
 
-Google Agent Companion Whitepaper
-→ AI agent flow
-→ Evaluation metrics
-→ Real examples
-🔗 [https://shorturl.at/hW2ak](https://shorturl.at/hW2ak)
+8. Deep Dive: [AI & LLM Research eBook](https://arxiv.org/abs/2501.09223)
+✔️ 200+ pages
+✔️ Architecture walkthroughs
+✔️ Design theory
 
-Anthropic’s Agent Framework
-→ Claude agents
-→ Prompt flow
-→ Iteration logic
-🔗 [https://lnkd.in/dbyUHwGD](https://lnkd.in/dbyUHwGD)
+9. [Scaling AI in Real Organizations](https://cdn.openai.com/business-guides-and-resources/ai-in-the-enterprise.pdf)
+✔️ Readiness checklist
+✔️ Risk heatmaps
+✔️ Use case filtering
 
-Anthropic Coding Best Practices
-→ Secure structure
-→ Prompt injection safety
-→ Clean output
-🔗 [https://lnkd.in/dE2BQ93t](https://lnkd.in/dE2BQ93t)
-
-200+ Page AI and LLM Research Book
-→ LLM mechanics
-→ Model design
-→ Deep architecture
-🔗 [https://lnkd.in/dKerfwie](https://lnkd.in/dKerfwie)
-
-Scaling AI Use Cases
-→ Use case filter
-→ Risk mapping
-→ Enterprise readiness
-🔗 [https://lnkd.in/dv6qMxGg](https://lnkd.in/dv6qMxGg)
-
-Ultimate Prompting Masterclass
-→ System design
-→ Prompt logic
-→ Deployment flow
-🔗 [https://rb.gy/zauz7x](https://rb.gy/zauz7x)
+10. [Prompting Mastery Series](https://zncd.ir/wp-content/uploads/2025/01/John-Berryman-Albert-Ziegler-Prompt-Engineering-for-LLMs_-The-Art-and-Science-of-Building-Large-Language-Model-Based-Applications-2024-OReilly-Media-libgen.li_.pdf)
+✔️ Full system builds
+✔️ Advanced prompt chains
+✔️ Deployment flow
